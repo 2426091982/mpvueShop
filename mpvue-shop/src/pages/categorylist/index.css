@@ -1,0 +1,74 @@
+.categoryList {
+  width: 100%;
+}
+.categoryList .head {
+  width: 100%;
+  height: 84rpx;
+  line-height: 84rpx;
+  background: #fff;
+  white-space: nowrap;
+}
+.categoryList .head div {
+  display: inline-block;
+  padding: 0 20rpx;
+  margin-left: 20rpx;
+}
+.categoryList .head .active {
+  color: #ab2b2b;
+  height: 100%;
+  border-bottom: 2px solid #ab2b2b;
+  box-sizing: border-box;
+}
+.categoryList .info {
+  text-align: center;
+  background: #fff;
+  padding: 30rpx;
+  margin-top: 20rpx;
+  margin-bottom: 5rpx;
+}
+.categoryList .info p:nth-child(1) {
+  margin-bottom: 18rpx;
+  font-size: 30rpx;
+  color: #333;
+}
+.categoryList .info p:nth-child(2) {
+  display: block;
+  height: 24rpx;
+  font-size: 24rpx;
+  color: #999;
+}
+.categoryList .list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.categoryList .list .item {
+  width: 372.5rpx;
+  margin-bottom: 5rpx;
+  text-align: center;
+  background: #fff;
+  padding: 15rpx 0;
+}
+.categoryList .list .item img {
+  display: block;
+  width: 302rpx;
+  height: 302rpx;
+  margin: 0 auto;
+}
+.categoryList .list .item .name {
+  margin: 15rpx 0 22rpx 0;
+  text-align: center;
+  padding: 0 20rpx;
+  font-size: 24rpx;
+}
+.categoryList .list .item .price {
+  text-align: center;
+  font-size: 30rpx;
+  color: #b4282d;
+}
+.categoryList .none {
+  text-align: center;
+  margin-top: 100rpx;
+  color: #999;
+}

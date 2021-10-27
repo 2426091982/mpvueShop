@@ -1,0 +1,99 @@
+.category {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.category .search {
+  height: 88rpx;
+  padding: 0 30rpx;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  border-bottom: 1rpx solid #ededed;
+}
+.category .search .ser {
+  width: 690rpx;
+  height: 56rpx;
+  background: #ededed;
+  border-radius: 8rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.category .search .ser span {
+  display: inline-block;
+}
+.category .search .ser .icon {
+  background: url('http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/search2-2fb94833aa.png') center no-repeat;
+  background-size: 100%;
+  width: 28rpx;
+  height: 28rpx;
+  margin-right: 10rpx;
+}
+.category .content {
+  flex: 1;
+  background: #fff;
+  display: flex;
+}
+.category .content .left {
+  width: 162rpx;
+  height: 100%;
+  text-align: center;
+}
+.category .content .left .iconText {
+  text-align: center;
+  line-height: 90rpx;
+  width: 162rpx;
+  height: 90rpx;
+  color: #333;
+  font-size: 28rpx;
+  border-left: 6rpx solid #fff;
+}
+.category .content .left .active {
+  color: #ab2b2b;
+  font-size: 36rpx;
+  border-left: 6rpx solid #ab2b2b;
+}
+.category .content .right {
+  border-left: 1rpx solid #fafafa;
+  flex: 1;
+  height: 100%;
+  padding: 0 30rpx 0 30rpx;
+}
+.category .content .right .banner {
+  width: 100%;
+  height: 222rpx;
+  margin-top: 20rpx;
+}
+.category .content .right .banner img {
+  width: 100%;
+  height: 100%;
+}
+.category .content .right .title {
+  text-align: center;
+  padding: 50rpx 0;
+}
+.category .content .right .title span:nth-child(2) {
+  font-size: 24rpx;
+  color: #333;
+  padding: 0 10rpx;
+}
+.category .content .right .title span:nth-child(2n + 1) {
+  color: #999;
+}
+.category .content .right .bottom {
+  display: flex;
+  flex-wrap: wrap;
+}
+.category .content .right .bottom .item {
+  width: 33.33%;
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+.category .content .right .bottom .item img {
+  height: 144rpx;
+  width: 144rpx;
+  display: block;
+  margin: 0 auto;
+}
